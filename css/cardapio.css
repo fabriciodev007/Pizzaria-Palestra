@@ -1,0 +1,56 @@
+body{
+    background-color: #787171;
+    
+}
+/* Inicio*/
+header{
+    height: 350px;
+    width: 100%;
+    background-image: url("/img/template.png");
+    background-size: cover;
+    
+}
+.tit-h1{
+    text-align: center;
+    padding-top: 30px;
+    color: white;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.conf-li{
+    list-style: none;
+    margin-left: 20px;
+    
+}
+.config-a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+}
+.config-ul{
+    display: flex;
+    
+}
+.config-nav{
+    position: absoluto;
+    right: 40px;
+    top: 350px;
+}
+img{
+    width: 200px;
+}
+.motoca-img{
+    position: absolute;
+    right: 50px;
+    top: 100px;
+}
+/* Fim do início*/
+.card-h2{
+    text-align: center;
+    color: rgb(243, 125, 16);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 35px;
+}

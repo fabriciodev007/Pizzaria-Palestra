@@ -1,0 +1,172 @@
+body{
+    background-color: #787171;
+}
+/* Inicio*/
+header{
+    height: 350px;
+    width: 100%;
+    background-image: url("/img/template.png");
+    background-size: cover;
+    
+}
+.tit-h1{
+    text-align: center;
+    padding-top: 30px;
+    color: white;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.conf-li{
+    list-style: none;
+    margin-left: 20px;
+    
+}
+.config-a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+}
+.config-ul{
+    display: flex;
+    
+}
+.config-nav{
+    position: absoluto;
+    right: 40px;
+    top: 350px;
+}
+img{
+    width: 200px;
+}
+.motoca-img{
+    position: absolute;
+    right: 50px;
+    top: 100px;
+}
+/* Fim do início*/
+
+/*Container início*/
+.titulo-pro{
+    text-align: center;
+    color: rgb(243, 125, 16);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 35px;
+
+}
+.pro-secti{
+        display: grid;
+       grid-template-columns: 1fr 1fr 1fr;
+       gap: 10px;
+}
+.promo1{
+    border: solid 1px black;
+    text-align: center;
+    background-color: rgb(222, 220, 231);
+}
+.promo2{
+    border: solid 1px black;
+    text-align: center;
+    background-color: rgb(222, 220, 231);
+}
+.promo3{
+    border: solid 1px black;
+    text-align: center;
+    background-color: rgb(222, 220, 231);
+}
+img{
+    width: 150px;
+}
+.img3{
+    padding-top: 30px;
+}
+/*Container Fim*/
+
+footer{
+    height: 200px;
+    background-color: #0a0808;
+}
+.sobre-h2,.cont-h2{
+    text-align: center;
+    color: rgb(243, 125, 16);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 35px;
+}
+#sobre{
+    text-align: justify;
+    width: 800px;
+   margin-left: 100px;
+}
+h3{
+    text-decoration: underline solid 2px;
+}
+.img-sobre{
+    width: 550px;
+   margin-left: 125px;
+
+}
+p{
+    text-indent: 10px;
+    line-height: 25px;
+
+}
+
+.localizacao{
+    margin-left: 100px;
+    width: 800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.div-for{
+    border: solid 2px black;
+    text-align: center;
+}
+.div-local{
+    border: solid 2px black;
+    padding: 15px;
+}
+input{
+    margin-bottom: 15px;
+}
+textarea{
+    margin-bottom: 25px;
+    height: 120px;
+}
+.nois{
+    margin-top: 20px;
+}
+.h3-local{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.h3-coment{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.img-whats{
+    width: 85px;
+    padding: 0;
+    margin: 0;
+}
+#link-what{
+    position:fixed;
+    top: 250px;
+    right: 80px;
+    
+}
+h6{
+    padding-top: 0;
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    top: 60px;
+    font-size: bold;
+    color: orange;
+
+}
