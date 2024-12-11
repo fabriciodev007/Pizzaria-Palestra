@@ -84,10 +84,7 @@ img{
 }
 /*Container Fim*/
 
-footer{
-    height: 200px;
-    background-color: #0a0808;
-}
+
 .sobre-h2,.cont-h2{
     text-align: center;
     color: rgb(243, 125, 16);
@@ -169,4 +166,16 @@ h6{
     font-size: bold;
     color: orange;
 
+}
+footer{
+    height: 00px;
+    height: 200px;
+    background-color: #e9e4e4;
+}
+
+.foot{
+
+    display: flex;
+    position: relative;
+    top: 40px;
 }
